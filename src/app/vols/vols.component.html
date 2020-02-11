@@ -1,0 +1,12 @@
+<h3>Liste des vols reservés</h3>
+
+<div *ngIf="vols">
+    <div class="card" id="vol-card" *ngFor="let vol of vols">
+        <div class="card-body"></div>
+        <h5 class="card-title">{{ vol.compagnie }}</h5>
+        <div class="card-text">
+            <p> Date : {{ vol.date | date }} </p>
+            <p> Numéro de place : {{ vol.place }} </p>
+        </div>
+      </div>
+</div>
