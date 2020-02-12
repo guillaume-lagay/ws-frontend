@@ -11,7 +11,7 @@ export class VolsComponent implements OnInit {
 
   private vols: Vol[] = [];
 
-  constructor(private volService: VolService ) { }
+  constructor(private volService: VolService) { }
 
   ngOnInit() {
     this.refreshVolsList();

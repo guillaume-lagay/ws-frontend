@@ -22,10 +22,6 @@ export class RestService {
       'Access-Control-Allow-Origin':'*'
     });
 
-    /*if (this.appState.data.toktok) {
-      headers = headers.set('Authorization', 'Bearer ' + this.appState.data.toktok);
-    }*/
-
     console.log(headers);
     return headers;
   }
