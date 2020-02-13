@@ -6,9 +6,7 @@ Installer Angular :
 
 npm install -g @angular/cli
 
-Installer Bootstrap :
-
-npm install --save bootstrap
+npm install
 
 Pour lancer le serveur :
 
